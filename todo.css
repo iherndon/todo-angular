@@ -1,0 +1,19 @@
+body {
+	color: yellow;
+	background-color: red
+}
+ 
+input[type=text]{
+	color: red;
+	font-weight: bold;
+}
+.btn {
+	color: red;
+	background: yellow;
+}
+span {
+	padding-right: 5%;
+}
+.strike{
+	text-decoration: line-through;
+}
