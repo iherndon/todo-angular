@@ -4,7 +4,6 @@ angular
 	.module('toDo')
 	.controller("ListController", ListController);
 
-	// var tasks = ['walk', 'talk', 'call'];
 	function ListController(ToDoFactory){
 		var vm = this;
 		vm.items = ToDoFactory.tasks;
