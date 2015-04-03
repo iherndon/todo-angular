@@ -6,10 +6,25 @@ body {
 input[type=text]{
 	color: red;
 	font-weight: bold;
+	width: 100%;
 }
 .btn {
 	color: red;
 	background: yellow;
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.form-actions {
+    margin-top: 10px;
+    background-color: transparent;
+    text-align: center;
 }
 span {
 	padding-right: 5%;

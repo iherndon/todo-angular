@@ -8,8 +8,12 @@
 	</div>
 	<div class="container">
 		<form class="col-xs-6" ng-controller="FormController as form" ng-submit="form.addTask(form.newItem)" novalidate>
-			<p> {{form.newItem}} </p>
-			<input placeholder='new task' type="text" ng-model="form.newItem"/>
-			<button class="btn btn-success">Add</button>	
+			<div class="form-group">
+				<p> {{form.newItem}} </p>
+				<input placeholder='new task' type="text" ng-model="form.newItem"/>
+				<div class="form-actions">
+					<button type="button" class="btn btn-default btn-circle btn-lg"><span class="glyphicon glyphicon-plus"></span></button>	
+				</div>
+			<div>
 		</form>
 	</div>	
