@@ -23,6 +23,11 @@ var app = angular.module('toDo', ['ngRoute']);
 		this.title = 'About ToDo List App';
 
 	});
+	app.factory('ToDoFactory', function(){
+		var factory = {};
+		factory.tasks = ['walk', 'talk', 'call'];
+		return factory;
+	});
 	var tasks = ['walk', 'talk', 'call'];
 	app.config(function($routeProvider){
 		$routeProvider

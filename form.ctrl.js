@@ -4,10 +4,10 @@ angular
 	.module('toDo')
 	.controller("FormController", FormController);
 
-	function FormController(){
+	function FormController(ToDoFactory){
 		var vm = this;
 		this.addTask = function(item){
-			tasks.push(item);
+			ToDoFactory.tasks.push(item);
 			vm.newItem = '';
 		};
 	}
