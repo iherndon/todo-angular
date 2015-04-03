@@ -17,6 +17,10 @@ var app = angular.module('toDo', ['ngRoute']);
 			templateUrl: 'todolist.html'
 		})
 
+		.when('/login', {
+			templateUrl: 'login.html'
+		})
+
 		.when('/about', {
 			templateUrl: 'about.html'
 		})
