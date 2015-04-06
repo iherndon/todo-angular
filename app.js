@@ -25,7 +25,9 @@ var app = angular.module('toDo', ['ngRoute']);
 			templateUrl: 'about.html'
 		})
 
-
+		.when('/completed', {
+			templateUrl: 'completed.html'
+		})
 
 		.otherwise({redirectTo: '/'})
 
