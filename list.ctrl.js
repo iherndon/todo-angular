@@ -13,6 +13,14 @@ angular
 		vm.style = function(){
 			return {'text-decoration': 'line-through'};
 		};
+
+		vm.checkItemStatus = function(item){
+			if(item.complete) {
+				return {'text-decoration': 'line-through'};
+			} else {
+				return {};
+			}
+		};
 	};
 
 })();
