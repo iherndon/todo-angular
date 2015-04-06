@@ -7,7 +7,7 @@ var app = angular.module('toDo', ['ngRoute']);
 	});
 	app.factory('ToDoFactory', function(){
 		var factory = {};
-		factory.tasks = ['walk', 'talk', 'call'];
+		factory.tasks = [{body: 'reading', complete: false},{body: 'writing', complete: false}, {body: 'math', complete: false}];
 		return factory;
 	});
 	app.config(function($routeProvider){
@@ -18,12 +18,14 @@ var app = angular.module('toDo', ['ngRoute']);
 		})
 
 		.when('/login', {
-			templateUrl: 'login.html'
+			templateUrl: 'login'
 		})
 
 		.when('/about', {
 			templateUrl: 'about.html'
 		})
+
+
 
 		.otherwise({redirectTo: '/'})
 
