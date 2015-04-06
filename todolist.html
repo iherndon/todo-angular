@@ -1,7 +1,6 @@
 <div ng-controller="ListController as list">
 	<div class='container'>
 		<div class="col-xs-8" >
-		<h1>To Do List</h1>
 		<h2 ng-repeat="item in list.items" ng-style="list.checkItemStatus(item)">{{ item.body | lowercase}}<span ng-click="list.removeTask(item)" class="glyphicon glyphicon-trash pull-right"></span><span ng-click="item.complete = true" class="glyphicon glyphicon-ok pull-right"></span><span ng-click="item.complete = false" class="glyphicon glyphicon-unchecked pull-right"></span> </h2>
 		</div>
 	</div>
