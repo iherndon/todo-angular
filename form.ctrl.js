@@ -6,9 +6,16 @@ angular
 
 	function FormController(ToDoFactory){
 		var vm = this;
+		vm.newItem = {
+			body: '',
+			complete: false
+		}
 		this.addTask = function(item){
 			ToDoFactory.tasks.push(item);
-			vm.newItem = '';
+			vm.newItem = {
+				body: '',
+				complete: false
+			};
 		};
 	}
 
