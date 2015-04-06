@@ -1,7 +1,6 @@
 <div ng-controller="ListController as list">
 	<div class='container'>
 		<div class="col-xs-8 pull-right" >
-		<h1>Completed Items View</h1>
 		<h2 ng-if='item.complete == true' ng-repeat="item in list.items" ng-style="list.checkItemStatus(item)">{{ item.body | lowercase}} </h2>
 		</div>
 	</div>
