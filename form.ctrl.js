@@ -11,6 +11,7 @@ angular
 			complete: false
 		}
 		this.addTask = function(item){
+			if (item.body.length > 2)
 			ToDoFactory.tasks.push(item);
 			vm.newItem = {
 				body: '',
