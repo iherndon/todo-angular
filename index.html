@@ -6,14 +6,18 @@
 	<link rel="stylesheet" type="text/css" href="todo.css">
 </head>
 <body>
-	<div>
-		<a href="#/">All</a>
-		<a href="#/about">About</a>
-		<a class='pull-right'href="#/completed">Complete</a>
+		
+	<div id="heading">
+	<h1>To Do List</h1>
+	<!-- <a href="#/about">About</a> -->
 	</div>
 	<div class='container'>
 		<div class='col-xs-8'>
-			<h1>To Do List</h1>
+			<ul id='filters' class="pull-left">
+			<li><a href="#/"><button class='btn'>All</button></a></li>
+			<li></li>
+			<li><a href="#/completed"><button class='btn'>Completed</button></a></li>
+		</ul>
 		</div>
 	</div>
 	<div ng-view></div>

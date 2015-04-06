@@ -1,19 +1,51 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	color: #c8c8c8;
-	background-color: #466675
+	background-color: #263840;
+	font-family:  Futura, 'Trebuchet MS', Arial, sans-serif;
 }
- 
+
 input[type=text]{
 	color: #466675;
 	font-weight: bold;
 	width: 75%;
 	text-align: center;
-	background-color: #37aecc;
+	background-color: #298DC2;
+}
+#heading {
+	color: #fff;
+	background-color: #466675;
+	height: 100px;
+	padding-top: 45px;
+	padding-left: 5px;
+}
+#filters li{
+	display: inline-block;
+}
+
+#filters button{
+	background-color: #298DC2;
+	width: 100px;
+	color: #fff;
+	height: 30px;
+}
+
+
+
+#filters {
+	padding-top: 8px;
+	text-align: center;
+	/*background-color: #37aecc;*/
 }
 
 .btn, .glyphicon-plus{
 	color: #37aecc;
 	background: #c8c8c8;
+	border-radius: 0;
 }
 .center {
 	text-align: center;
