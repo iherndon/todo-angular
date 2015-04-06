@@ -6,11 +6,16 @@ body {
 input[type=text]{
 	color: red;
 	font-weight: bold;
-	width: 100%;
+	width: 75%;
+	text-align: center;
+	background-color: yellow;
 }
 .btn {
 	color: red;
 	background: yellow;
+}
+.center {
+	text-align: center;
 }
 
 .btn-circle.btn-lg {
