@@ -2,7 +2,7 @@
 		<div class='container'>
 			<div class="col-xs-8" >
 			<h1>To Do List</h1>
-			<h2 ng-repeat="item in list.items" ng-style="myStyle"> {{ item.body | lowercase}}<span ng-click="list.removeTask(item)" class="glyphicon glyphicon-trash pull-right"></span><span ng-click="myStyle = list.style()" class="glyphicon glyphicon-ok pull-right"></span><span ng-click="myStyle = {}" class="glyphicon glyphicon-unchecked pull-right"></span> </h2>
+			<h2 ng-repeat="item in list.items" ng-style="myStyle"> {{ item.body | lowercase}} {{item.complete}}<span ng-click="list.removeTask(item)" class="glyphicon glyphicon-trash pull-right"></span><span ng-click="myStyle = list.style(); item.complete = true" class="glyphicon glyphicon-ok pull-right"></span><span ng-click="myStyle = {}; item.complete = false" class="glyphicon glyphicon-unchecked pull-right"></span> </h2>
 			</div>
 		</div>
 	</div>
