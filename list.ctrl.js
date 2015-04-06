@@ -10,9 +10,6 @@ angular
 		vm.removeTask = function(item){
 			vm.items.splice(vm.items.indexOf(item), 1);
 		};
-		vm.style = function(){
-			return {'text-decoration': 'line-through'};
-		};
 
 		vm.checkItemStatus = function(item){
 			if(item.complete) {
