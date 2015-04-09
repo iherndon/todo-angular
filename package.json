@@ -1,5 +1,5 @@
 {
-  "name": "to do list",
+  "name": "todolist-iw",
   "description": "angular to do list",
   "main": "server.js",
   "scripts": {
