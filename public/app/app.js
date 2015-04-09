@@ -14,19 +14,19 @@ var app = angular.module('toDo', ['ngRoute']);
 		$routeProvider
 
 		.when('/', {
-			templateUrl: 'views/todolist.html'
+			templateUrl: './views/todolist.html'
 		})
 
 		.when('/login', {
-			templateUrl: 'views/login.html'
+			templateUrl: './views/login.html'
 		})
 
 		.when('/about', {
-			templateUrl: 'views/about.html'
+			templateUrl: './views/about.html'
 		})
 
 		.when('/completed', {
-			templateUrl: 'views/completed.html'
+			templateUrl: './views/completed.html'
 		})
 
 		.otherwise({redirectTo: '/'})
