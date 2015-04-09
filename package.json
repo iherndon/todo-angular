@@ -1,6 +1,6 @@
 {
-  "name": "ToDo List",
-  "description": "Angular ToDo List",
+  "name": "todolist-iw",
+  "description": "angular to do list",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
