@@ -1,0 +1,12 @@
+{
+  "name": "ToDo List",
+  "description": "Angular ToDo List",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "~1.0.0",
+    "express": "~4.9.8"
+  }
+}
