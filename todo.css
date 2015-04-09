@@ -25,6 +25,15 @@ input[type=text]{
 	padding-left: 5px;
 }
 
+#heading li {
+	display: inline-block;
+}
+
+#heading h2 {
+	padding-right: 30px;
+	padding-top: 20px;
+}
+
 #heading h1{
 	font-size: 50px;
 }
